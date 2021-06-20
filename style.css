@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+img{
+    width:500px;
+    border:5px black solid;
+    margin:20px;
+    transition: transform 0.5s;
+}
+
+img:hover {
+    transform:scale(0.9);
+}
+
+#apps{
+    background-color:#8fefe9;
+    padding:80px;
+}
+
+#games{
+    background-color:#ee8f99;
+    padding:80px;
+}
+
+#chatbot{
+    background-color:#b8f5e4;
+    padding:80px;
+}
+
+h1{
+    font-size:50px;
+}
+.line{
+    height:6px;
+    background-color: black;
+    width:200px;
+    margin:1px auto;
+}
+iframe{
+    margin:20px;
+}
